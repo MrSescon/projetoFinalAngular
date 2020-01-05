@@ -4,7 +4,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
-import { Conversao, ConversaoResponse} from '../models';
+import { Conversao, ConversaoResponse} from '../Models';
 
 @Injectable({
   providedIn: 'root'
